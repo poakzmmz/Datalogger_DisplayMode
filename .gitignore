@@ -1,0 +1,30 @@
+.DS_Store
+
+# STM32CubeIDE build outputs
+/Debug/
+/Release/
+
+# Firmware/build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+*.cyclo
+
+# Local logs and captured data
+/outputs/
+*.log
+*.csv
+*.nmea
+*.ubx
+FAULT.TXT
+st-link_gdbserver_log.txt
+
+# Temporary/editor files
+*.tmp
+*.bak
+*.swp
